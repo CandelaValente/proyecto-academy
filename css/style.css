@@ -1,0 +1,120 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+   
+}
+
+body {
+    background-color: beige;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    background-color: antiquewhite !important;
+   /* padding: 5px;
+    height: 40px;*/
+   
+}
+/*
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: inherit;
+    padding: 5px;
+    padding-inline: 20px;
+}
+
+.navbar ul li h1 {
+    font-size: 20px;
+    margin: 0;
+}
+*/
+
+
+/*
+.card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+.card {
+    border-radius: 10px;
+    margin: 3px;
+    padding: 15px;
+    background-color: rgba(255, 250, 240, 0.6);
+}
+
+*/
+footer {
+    background-color: bisque;
+    height: 500PX;
+    margin-top: 100px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+}
+
+section{
+    width: 800px;
+    margin: auto;
+    margin-block: 20px;
+    box-shadow: 10px 10px 15px rgba(167, 165, 165, 0.3);
+}
+.container {
+    display: flex ;
+    flex-direction: row;
+}
+ input {
+    margin: 5px;
+    border: 1px solid rgb(247, 236, 221);
+    background-color: rgba(252, 245, 237, 0.719);
+    padding: 5px;
+
+}
+
+form textarea {
+    margin: 5px;
+    border: 1px solid antiquewhite;
+    background-color: beige;
+}
+
+span {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav li a:hover {
+    background-color: darksalmon;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(167, 165, 165, 0.3);
+}
+
+.flayer{
+    width: 100%;
+}
+
+.btn{
+    background-color: antiquewhite;
+    width: 30%;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(167, 165, 165, 0.3);
+}
